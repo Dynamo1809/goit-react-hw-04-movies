@@ -1,0 +1,15 @@
+@import 'styles/shared.scss';
+
+.MoviesPage__label {
+  display: inline-block;
+  font-weight: 500;
+  color: $indigo;
+}
+
+.MoviesPage__input {
+  @extend %input;
+}
+
+.MoviesPage__button {
+  @extend %button;
+}

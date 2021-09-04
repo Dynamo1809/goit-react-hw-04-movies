@@ -1,0 +1,42 @@
+.MovieCard {
+  display: flex;
+  text-align:start;
+}
+
+.MovieCard__content {
+  max-width: 310px;
+  padding: 0 10px;
+}
+
+.MovieCard__name {
+  width: 300px
+}
+
+.MovieCard__image {
+  width: 240px;
+}
+
+.MovieCard__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.MovieCard__text {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.MovieCard__genreslist {
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.MovieCard__genresitem {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+

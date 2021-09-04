@@ -1,0 +1,11 @@
+@import 'styles/shared';
+
+.PageHeader__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 28px;
+  color: $orange;
+  background-image: $linear-gradient;
+}

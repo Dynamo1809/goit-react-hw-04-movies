@@ -1,0 +1,41 @@
+@import 'styles/shared.scss';
+
+.HomePage__list {
+  margin-top: 0;
+  padding: 0;
+}
+
+.HomePage__item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 310px;
+  padding: 5px;
+  list-style: none;
+  border: 1px solid $indigo;
+  border-radius: 4px;
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  font-size: 16px;
+}
+
+.HomePage__link {
+  word-wrap: break-word;
+  width: 100%;
+  // max-width: 220px;
+  // margin-left: 5px;
+  // text-decoration: none;
+  color: $orange;
+  font-weight: bold;
+}
+
+.HomePage__button {
+  @extend %button;
+  margin-right: 5px;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}

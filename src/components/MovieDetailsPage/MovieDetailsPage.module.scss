@@ -1,0 +1,34 @@
+@import 'styles/shared.scss';
+
+.MovieDetailsPage__list {
+  padding: 0;
+}
+
+.MovieDetailsPage__section {
+  text-align: start;
+}
+
+.MovieDetailsPage__title {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  // text-align: center;
+  // font-size: 28px;
+  color: $orange;
+  background-image: $linear-gradient;
+}
+
+.MovieDetailsPage__detailsItem {
+  color: $orange;
+}
+
+.MovieDetailsPage__link {
+  color: blue;
+}
+
+.MovieDetailsPage__btn {
+  @extend %button;
+  padding: 3px 7px;
+  margin-bottom: 5px;
+}
